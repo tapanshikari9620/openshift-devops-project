@@ -3,7 +3,6 @@ pipeline {
 
     tools {
         maven 'Maven3'   // Make sure Maven is configured in Jenkins
-        jdk 'JDK11'      // Or JDK17 depending on your project
     }
 
     environment {
